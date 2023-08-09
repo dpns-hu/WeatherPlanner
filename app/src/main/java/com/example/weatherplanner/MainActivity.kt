@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() {
 
             }
             "Clear Sky","Sunny","Clear"->{
-                binding.root.setBackgroundResource(R.drawable.sunny_background)
+                binding.root.setBackgroundResource(R.drawable.sunny_image)
                 binding.lottieAnimationView.setAnimation(R.raw.sunny)
             }
             "Partly Clouds", "Clouds", "Overcast", "Mist", "Foggy"->{
@@ -114,7 +114,7 @@ class MainActivity : AppCompatActivity() {
                 binding.root.setBackgroundResource(R.drawable.snow_background)
                 binding.lottieAnimationView.setAnimation(R.raw.snow)
             }else->{
-            binding.root.setBackgroundResource(R.drawable.sunny_background)
+            binding.root.setBackgroundResource(R.drawable.sunny_image)
             binding.lottieAnimationView.setAnimation(R.raw.sunny)
             }
         }
