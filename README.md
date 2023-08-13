@@ -1,6 +1,5 @@
 # WeatherPlanner
-• Developed an Android weather planning application using Kotlin to provide users with accurate weather forecasts and
-suggestions.
+• Developed an Android weather planning application using Kotlin to provide users with accurate weather.
 
 • Utilized Retrofit class to turn API interfaces into callable objects.
 
